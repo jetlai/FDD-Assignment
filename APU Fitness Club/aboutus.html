@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>About Us</title>
+<link href="imagemodal.css" rel="stylesheet" type="text/css" />
+<link href="default.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div id="container">
+	<div id="header">
+		About APU Fitness Club </div>
+	<div id="nav">
+		| <a href="default.html">Home</a> 
+		| <a href="aboutus.html">About Us</a> 
+		| <a href="workoutplans.html">Workout Plans</a> |   <!-- 5 subpages -->
+		<a href="nutritionplans.html">Nutrition Plans</a> | <!-- 5 subpages -->
+		<a href="contactus.html">Contact Us</a> | 
+	</div>
+	<div id="content-area">
+		<div id="page-title">
+			Empowering Your Journey to Optimal Wellness </div>
+		<br />
+		<div id="page-content">
+			<h2 style="text-align: center">
+			<b style="text-decoration: underline">APU's Gym</b></h2>
+			<br />
+			<img id="myImg" src="apugym.jpg" alt="Gym" style="width:880px;max-width:880px" />
+
+			<!-- The Modal -->
+			<div id="myModal" class="modal">
+  				<span class="close">&times;</span>
+  				<img class="modal-content" id="img01" />
+  				<div id="caption"></div>
+			</div>
+			<script type="text/javascript">
+			// Get the modal
+			var modal = document.getElementById("myModal");
+
+			// Get the image and insert it inside the modal - use its "alt" text as a caption
+			var img = document.getElementById("myImg");
+			var modalImg = document.getElementById("img01");
+			var captionText = document.getElementById("caption");
+			img.onclick = function(){
+  			modal.style.display = "block";
+  			modalImg.src = this.src;
+  			captionText.innerHTML = this.alt;
+			}
+
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close")[0];
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() { 
+  			modal.style.display = "none";
+			}
+			</script>
+			<br />
+			<ol>
+				<li><b>Our Mission</b></li> At APU's Fitness Club, we are driven 
+				by a passion for empowering individuals to lead healthier, happier 
+				lives through fitness, nutrition, and overall well-being. Our platform 
+				was born out of a shared vision to create a supportive community 
+				where individuals of all ages and backgrounds can embark on transformative 
+				fitness journeys together. <br />
+				<br />
+				We aim to inspire and guide you towards achieving your health and 
+				fitness goals, no matter where you are in your journey. We believe 
+				that each person's path to wellness is unique, and we are committed 
+				to providing you with the tools, resources, and personalized support 
+				to help you unlock your full potential. <br />
+				<br />
+				<li><b>Expertise That Sets Us Apart</b></li> APU's Fitness Club 
+				is not just another fitness website. What sets us apart is our team 
+				of dedicated experts, including certified fitness trainers, experienced 
+				nutritionists, and passionate wellness coaches. Each member of our 
+				team brings a wealth of knowledge and expertise to the table, ensuring 
+				that the information and guidance you receive are of the highest 
+				quality. <br />
+				<br />
+				<li><b>Tailored Fitness Programs</b></li> We understand that every 
+				individual has distinct fitness aspirations and challenges. That's 
+				why we have carefully curated a diverse range of fitness programs 
+				to cater to different fitness levels and preferences. Whether you 
+				want to build strength, improve flexibility, lose weight, or simply 
+				enhance your overall well-being, our tailored programs are designed 
+				to meet your unique needs. <br />
+				<br />
+				<li><b>Nutrition for Nourishment</b></li> Fueling your body with 
+				the right nutrients is paramount to achieving lasting results. At 
+				APU's Fitness Club, we emphasize the significance of proper nutrition 
+				and offer personalized meal plans, healthy recipes, and expert advice 
+				to help you make informed choices about your dietary habits.
+				<br />
+				<br />
+				<li><b>Supportive Community</b></li> Joining the APU Fitness Club 
+				means becoming part of an inclusive and supportive community. Share 
+				your successes, challenges, and experiences with like-minded individuals 
+				who understand the journey you're on. Our forums and discussion 
+				boards are the perfect place to connect, seek advice, and cheer 
+				each other on every step of the way. <br />
+				<br />
+				<li><b>Inspiring Success Stories</b></li> We celebrate the achievements 
+				of our members! The success stories featured on our website are 
+				real testimonials from individuals who have made remarkable transformations 
+				with APU's Fitness Club. These stories serve as a testament to the 
+				effectiveness of our programs and the positive impact they can have 
+				on your life. <br />
+				<br />
+				<li><b>Stay Informed with Our Blog</b></li> Our blog section is 
+				a hub of knowledge, featuring the latest insights, trends, and research 
+				in the world of fitness, nutrition, and wellness. Stay up-to-date 
+				with expert articles and practical tips that will enrich your fitness 
+				journey. <br />
+				<br />
+				<li><b>Join APU Fitness Club Today</b></li> Whether you are a seasoned 
+				fitness enthusiast or taking your first steps towards a healthier 
+				lifestyle, Our fitness club welcomes you with open arms. We are 
+				committed to supporting you every step of the way as you embrace 
+				a more active, balanced, and fulfilling life. Thank you for choosing 
+				the APU Fitness Club as your partner in achieving optimal wellness. 
+				Join us today, and let's make the most out of your journey to a 
+				happier and healthier you!
+			</ol>
+			<br />
+			<br />
+		</div>
+	</div>
+	<div id="footer">
+		Created by Group 7, 2023<br />
+		CT053-3-1-FDD (2023) </div>
+</div>
+
+</body>
+
+</html>

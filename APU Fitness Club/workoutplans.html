@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Workout Plans</title>
+<link href="SlideshowGallery.css" rel="stylesheet" type="text/css" />
+<link href="default.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div id="container">
+	<div id="header">
+		Our Fitness Routine </div>
+	<div id="nav">
+		| <a href="default.html">Home</a> 
+		| <a href="aboutus.html">About Us</a> 
+		| <a href="workoutplans.html">Workout Plans</a> |   <!-- 5 subpages -->
+		<a href="nutritionplans.html">Nutrition Plans</a> | <!-- 5 subpages -->
+		<a href="contactus.html">Contact Us</a> | 
+	</div>
+	<div id="content-area">
+		<div id="page-title">
+			Achieve Your Fitness Goals with Our Effective Training Routines </div>
+		<br />
+		<div id="page-content">
+			<h2 style="text-align: justify">
+			<b style="text-decoration: underline">Workout Plans</b></h2>
+			<p>Welcome to the Workout Plans page! Here, you'll find a variety of carefully curated workout 
+	   		routines designed to target different muscle groups, improve overall strength, and enhance your fitness level. 
+	  		Whether you're a beginner or an experienced fitness enthusiast, these workout plans are adaptable to suit your needs. 
+	   		Remember to consult with your healthcare provider before starting any new exercise regimen.
+			</p>
+			<br />
+			<h2 style="text-align: justify">
+			<b style="text-decoration: underline">Calisthenic Workout Plan</b></h2>
+			<p>At the APU Fitness Club we believe that the easiest way to get started into exercising with
+			body weight is key to achieving a aesthetic physique. Once you have mastered calisthenic
+			movements you can lower risks of cardiovascular diseases and improve your overall wellbeing.
+			In addition, you will also gain a boost to your immune system preventing common colds and other
+			sicknesses. <br /><br /> <i>Below are a few examples of popular influencers who have gained the benefits
+			of calisthenics:</i>
+			</p>
+			<div class="container">
+				<div class="mySlides">
+					<div class="numbertext">
+						1 / 6</div>
+					<img src="content1.jpg" style="width: 100%"> </div>
+				<div class="mySlides">
+					<div class="numbertext">
+						2 / 6</div>
+					<img src="content2.jpg" style="width: 100%"> </div>
+				<div class="mySlides">
+					<div class="numbertext">
+						3 / 6</div>
+					<img src="content3.jpg" style="width: 100%"> </div>
+				<div class="mySlides">
+					<div class="numbertext">
+						4 / 6</div>
+					<img src="content4.jpg" style="width: 100%"> </div>
+				<div class="mySlides">
+					<div class="numbertext">
+						5 / 6</div>
+					<img src="content5.jpg" style="width: 100%"> </div>
+				<div class="mySlides">
+					<div class="numbertext">
+						6 / 6</div>
+					<img src="content6.jpg" style="width: 100%"> </div>
+				<a class="prev" onclick="plusSlides(-1)">❮</a>
+				<a class="next" onclick="plusSlides(1)">❯</a>
+				<div class="caption-container">
+					<p id="caption"></p>
+				</div>
+				<div class="row">
+					<div class="column">
+						<img alt="Example of Calisthenic Transformation" class="demo cursor" onclick="currentSlide(1)" src="content1.jpg" style="width: 100%">
+					</div>
+					<div class="column">
+						<img alt="Sven Kohl - Founder of the famous Calisthenicmovement" class="demo cursor" onclick="currentSlide(2)" src="content2.jpg" style="width: 100%">
+					</div>
+					<div class="column">
+						<img alt="SnakerSW - Skinny fat to 6-packs in 8 months" class="demo cursor" onclick="currentSlide(3)" src="content3.jpg" style="width: 100%">
+					</div>
+					<div class="column">
+						<img alt="Chris Heria - A calisthenics master who inspired thousands" class="demo cursor" onclick="currentSlide(4)" src="content4.jpg" style="width: 100%">
+					</div>
+					<div class="column">
+						<img alt="Gabo Saturno - The master of calisthenics and yoga" class="demo cursor" onclick="currentSlide(5)" src="content5.jpg" style="width: 100%">
+					</div>
+					<div class="column">
+						<img alt="Anthony Arvanitakis - Become a bodyweight superhero after losing his leg" class="demo cursor" onclick="currentSlide(6)" src="content6.jpg" style="width: 100%">
+					</div>
+					
+				</div>
+			</div>
+			<script type="text/javascript">
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace("active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+</script>
+	<h2 style="text-align: justify">
+	<b style="text-decoration: underline">Our 5 Day Workout Plan:</b></h2>
+			<table>
+				<tr>
+					<th style="width: 160px">Workout Plans:</th>
+					<td style="width: 160px"><a style="font-size:32px" href="workoutday1.html">Day 1</a></td>
+					<td style="width: 160px"><a style="font-size:32px" href="workoutday2.html">Day 2</a></td>
+					<td style="width: 160px"><a style="font-size:32px" href="workoutday3.html">Day 3</a></td>
+					<td style="width: 160px"><a style="font-size:32px" href="workoutday4.html">Day 4</a></td>
+					<td style="width: 160px"><a style="font-size:32px" href="workoutday5.html">Day 5</a></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div id="footer">
+		Created by Group 7, 2023<br />
+		CT053-3-1-FDD (2023) </div>
+</div>
+
+</body>
+
+</html>

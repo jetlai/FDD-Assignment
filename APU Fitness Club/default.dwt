@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<!-- #BeginEditable "doctitle" -->
+<title>Default Design</title>
+<!-- #EndEditable -->
+<link href="default.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<body>
+
+<div id="container">
+	<div id="header">
+	APU Fitness Club
+	</div>
+	<div id="nav">
+		<a href="default.html">Home</a> |
+		<a href="Page2.html">About Us</a> |
+		<a href="Page3.html">Untitled 1</a> |
+		<a href="Page4.html">Untitled 1</a> |
+		<a href="Page5.html">Untitled 1</a> |
+		<a href="Page6.html">Untitled 1</a> |
+		<a href="Page7.html">Untitled 1</a> |
+		<a href="Page8.html">Untitled 1</a> |
+		<a href="Page9.html">Untitled 1</a> |
+		<a href="Page10.html">Untitled 1</a> |
+		<a href="Page11.html">Untitled 1</a> |
+		<a href="Page12.html">Untitled 1</a> |	
+		<a href="Page13.html">Untitled 1</a> |
+		<a href="Page13.html">Untitled 1</a> |
+		<a href="Page15.html">Untitled 1</a> |
+		
+	</div>
+	<div id="content-area">
+		<div id="page-title">
+		<!-- #BeginEditable "pagetitle" -->
+		(pagetitle)
+		<!-- #EndEditable -->
+
+		</div>
+		<br/>
+		<div id="page-content">
+		<!-- #BeginEditable "pagecontent" -->
+		(pagecontent)
+		<!-- #EndEditable -->
+		
+		<br/><br/>
+		</div>
+	
+	</div>
+	<div id="footer">
+	Created by Group 7, 2023<br/>
+	CT053-3-1-FDD (2023)
+	</div>
+</div>
+
+</body>
+
+</html>

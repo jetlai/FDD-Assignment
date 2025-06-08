@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Nutrition Plans</title>
+<link href="SlideshowGallery.css" rel="stylesheet" type="text/css" />
+<link href="default.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div id="container">
+	<div id="header">
+		Our Nutrition Routine </div>
+	<div id="nav">
+		| <a href="default.html">Home</a> 
+		| <a href="aboutus.html">About Us</a> 
+		| <a href="workoutplans.html">Workout Plans</a> |   <!-- 5 subpages -->
+		<a href="nutritionplans.html">Nutrition Plans</a> | <!-- 5 subpages -->
+		<a href="contactus.html">Contact Us</a> | 
+	</div>
+	<div id="content-area">
+		<div id="page-title">
+			Fuel Your Body for Peak Performance </div>
+		<br />
+		<div id="page-content">
+			<h2 style="text-align: justify">
+			<b style="text-decoration: underline">Nutrition Plans</b></h2>
+			<p>A well-balanced nutrition plan is essential for optimizing your fitness 
+			results and overall well-being. Our 5-Day Nutrition Plan provides a 
+			variety of nutritious and delicious meals that support your fitness 
+			goals and keep you energized throughout the week. Remember to customize 
+			portion sizes based on your individual needs and consult a healthcare 
+			professional if you have any specific dietary concerns. <br /><br />
+			</p>
+			<h2 style="text-align: justify">
+			<b style="text-decoration: underline">A High Protein Diet</b></h2>
+			<p>To channel your inner Greek god you will need the proper sustanance. 
+			Studies show that a high protein diet is beneficial for users who plan 
+			to achieve a well build body. If you are someone who plans on losing 
+			alot of weight the trick is to be on a caloric defecit. This means that 
+			a person must eat below their required daily caloric intake to lose 
+			excessive body fat, this is called cutting in the fitness community. 
+			Eating in high protein levels is needed to prevent muscle loss and maintain 
+			muscle mass.in this cutting process.<br /><br />
+			Likewise, for someone who plans on gaining muscle they would need a 
+			caloric surplus. Here, a person should eat slighty more than their required 
+			daily caloric intake to gain muscle mass, this is refered to as bulking 
+			in the fitness community. This process requires a strict diet plan consisting 
+			of protein in all meals of the day. The required amount is 1 gram of 
+			protein per 1 lbs of body weight. Protein powders are another alternative 
+			which is used by those who cannot achieve their high protein diet requirements. 
+			All in all, the fitness community is filled various eating routines 
+			for everyone. <br /><br />
+			</p>
+			<div class="container">
+				<div class="mySlides">
+					<div class="numbertext">
+						1 / 6</div>
+					<img src="content7.jpg" style="width: 100%"> </div>
+				<div class="mySlides">
+					<div class="numbertext">
+						2 / 6</div>
+					<img src="content8.jpg" style="width: 100%"> </div>
+				<div class="mySlides">
+					<div class="numbertext">
+						3 / 6</div>
+					<img src="content9.jpg" style="width: 100%"> </div>
+				<div class="mySlides">
+					<div class="numbertext">
+						4 / 6</div>
+					<img src="content10.jpg" style="width: 100%"> </div>
+				<div class="mySlides">
+					<div class="numbertext">
+						5 / 6</div>
+					<img src="content11.jpg" style="width: 100%"> </div>
+				<div class="mySlides">
+					<div class="numbertext">
+						6 / 6</div>
+					<img src="content12.jpg" style="width: 100%"> </div>
+				<a class="prev" onclick="plusSlides(-1)">❮</a>
+				<a class="next" onclick="plusSlides(1)">❯</a>
+				<div class="caption-container">
+					<p id="caption"></p>
+				</div>
+				<div class="row">
+					<div class="column">
+						<img alt="The food pyramid showing the which foods to eat the most" class="demo cursor" onclick="currentSlide(1)" src="content7.jpg" style="width: 100%">
+					</div>
+					<div class="column">
+						<img alt="Fats help our bodies absorb important fat-soluble vitamins such as vitamins A, D and E" class="demo cursor" onclick="currentSlide(2)" src="content8.jpg" style="width: 100%">
+					</div>
+					<div class="column">
+						<img alt="Protein is to keep our muscles strong and healthy" class="demo cursor" onclick="currentSlide(3)" src="content9.jpg" style="width: 100%">
+					</div>
+					<div class="column">
+						<img alt="Fruits contain a various amounts of vitamins necessary for our body" class="demo cursor" onclick="currentSlide(4)" src="content10.jpg" style="width: 100%">
+					</div>
+					<div class="column">
+						<img alt="Fibrous carbohydrates are need for healthy bowel movements " class="demo cursor" onclick="currentSlide(5)" src="content11.jpg" style="width: 100%">
+					</div>
+					<div class="column">
+						<img alt="Starchy carbohydrates help control blood glucose and insulin metabolism" class="demo cursor" onclick="currentSlide(6)" src="content12.jpg" style="width: 100%">
+					</div>
+				</div>
+			</div>
+			<script type="text/javascript">
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace("active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+</script>
+	<h2 style="text-align: justify">
+	<b style="text-decoration: underline">The Goal This 5-Day Plan</b></h2>
+	<p>This 5-Day Nutrition Plan is crafted to provide the necessary nutrients, support muscle 
+	recovery, maintain energy levels, and promote overall well-being on your fitness journey. 
+	Remember to enjoy a diverse range of whole foods, stay hydrated, and fuel your body with 
+	the goodness it deserves. Here's to achieving your fitness goals with the perfect 
+	combination of exercise and nourishment!</p>
+	<h2 style="text-align: justify">
+	<b style="text-decoration: underline">Our 5 Day Nutrition Plan:</b></h2>
+			<table>
+				<tr>
+					<th style="width: 160px">Nutrition Plans:</th>
+					<td style="width: 160px"><a style="font-size:32px" href="nutritionday1.html">Day 1</a></td>
+					<td style="width: 160px"><a style="font-size:32px" href="nutritionday2.html">Day 2</a></td>
+					<td style="width: 160px"><a style="font-size:32px" href="nutritionday3.html">Day 3</a></td>
+					<td style="width: 160px"><a style="font-size:32px" href="nutritionday4.html">Day 4</a></td>
+					<td style="width: 160px"><a style="font-size:32px" href="nutritionday5.html">Day 5</a></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div id="footer">
+		Created by Group 7, 2023<br />
+		CT053-3-1-FDD (2023) </div>
+</div>
+
+</body>
+
+</html>

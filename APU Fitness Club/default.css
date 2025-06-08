@@ -1,0 +1,84 @@
+﻿body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: #36454F;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+a {
+	text-decoration: none;
+	color: #000000;
+	font-family: "Courier New", Courier, monospace;
+	text-align: center;
+	word-spacing: 4px;
+	font-size: large;
+	font-weight: bold;
+}
+a:hover {
+	font-size: x-large;
+	color: #FFFFFF;
+	background-color: #0066FF;
+}
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 16px;
+}
+th, td {
+  background-color: #99CCFF;
+}
+
+#container {
+	background-color: #C0C0C0;
+	border: 2px solid #000000;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header {
+	background-image: url('header2.png');
+	height: 240px;
+	font-size: 48px;
+	font-weight: bolder;
+	font-style: italic;
+	padding-top: 90px;
+	padding-left: 48px;
+	color: #FF6600;
+	text-align: center;
+	vertical-align: central;
+}
+#nav {
+	padding: 16px;
+	border-top: 2px solid #FF6600;
+	border-bottom: 2px solid #FF6600;
+	background-color: #99CCFF;
+	text-align: center;
+	letter-spacing: 2px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+}
+#content-area {
+	padding: 24px;
+}
+#page-title {
+	border-style: solid;
+	border-width: medium;
+	padding: 8px;
+	font-size: 24px;
+	font-weight: bold;
+	background-color: #FF6600;
+	text-align: center;
+}
+#page-content {
+	text-align: justify;
+	padding: 16px;
+}
+#footer {
+	border-top: 1px solid #000000;
+	background-image: url('footer2.jpg');
+	height: 40px;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 8px;
+	color: #FF6600;
+}
